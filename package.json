@@ -2,7 +2,7 @@
     "name": "request-frame",
     "version": "1.0.0",
     "description": "A discord.js bot command/bot framework based on RequestBound",
-    "main": "main.js",
+    "main": "src/main.js",
     "scripts": {
         "test": "node test/maintest.js"
     },
