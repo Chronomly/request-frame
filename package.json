@@ -10,7 +10,8 @@
         "type": "git",
         "url": "git+https://github.com/Chronomly/request-frame.git"
     },
-    "contributors": [{
+    "contributors": [
+        {
             "name": "Chronomly",
             "email": "chronomly@gmail.com",
             "url": "https://chronomly.tk"
@@ -28,6 +29,11 @@
     "homepage": "https://github.com/Chronomly/request-frame#readme",
     "dependencies": {
         "discord.js": "^11.2.1"
+    },
+    "optionalDependencies": {
+        "erlpack": "github:discordapp/erlpack",
+        "sodium": "^2.0.1",
+        "uws": "^8.14.1"
     },
     "devDependencies": {}
 }
