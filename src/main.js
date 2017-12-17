@@ -1,17 +1,12 @@
-// Load module-only requires
-const discordJS = require('discord.js');
+const Client = require('discord.js').Client;
 
-// Define module
-module.exports = {
-    makeClient: function(options) {
-        let Bot = new discordJS.Client(); Bot.login(options.botToken)
-        return {
-            run: function() {
-                Bot.on('message', msg => {
-                    if(msg.author.bot) return;
-                    msg.channel.send('Hi')
-                })
-            }
-        }
+//#region Export class RequestFrame; The main class of this framework.
+module.exports = class RequestFrame extends Client {
+    constructor(options = {
+        discordJSOptions
+    }) {
+        super(discordJSOptions);
     }
-};
+
+}
+//#endregion
