@@ -1,5 +1,5 @@
 {
-    "name": "framebot",
+    "name": "request-frame",
     "version": "1.0.0",
     "main": "main.js",
     "dependencies": {
@@ -10,8 +10,17 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
-    "license": "ISC",
+    "license": "AGPL-3.0",
     "keywords": [],
-    "description": ""
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Chronomly/request-frame.git"
+    },
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Chronomly/request-frame/issues"
+    },
+    "homepage": "https://github.com/Chronomly/request-frame#readme",
   }
   
