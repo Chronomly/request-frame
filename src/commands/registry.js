@@ -8,8 +8,14 @@ module.exports = class Registry {
     }
 
     async push(command) {
-        if (command instanceof Command) {
-            command = new command();
+        if (command.constructor instanceof Command) {
+            // A command object, no need to make a instance.
+            commandObject = command;
+        } else if (command instanceof Command) {
+            // A command class, need to make a instance to get a usable object.
+            commandObject = new command();
+        } else {
+            throw 'Unknown command object/class.';
         }
     }
 }
