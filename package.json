@@ -1,23 +1,33 @@
 {
-  "name": "request-frame",
-  "version": "1.0.0",
-  "description": "A discord.js bot command/bot framework based on RequestBound",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Chronomly/request-frame.git"
-  },
-  "author": "",
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Chronomly/request-frame/issues"
-  },
-  "homepage": "https://github.com/Chronomly/request-frame#readme",
-  "dependencies": {
-    "discord.js": "^11.2.1"
-  },
-  "devDependencies": {}
+    "name": "request-frame",
+    "version": "1.0.0",
+    "description": "A discord.js bot command/bot framework based on RequestBound",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Chronomly/request-frame.git"
+    },
+    "contributors": [{
+            "name": "Chronomly",
+            "email": "chronomly@gmail.com",
+            "url": "https://chronomly.tk"
+        },
+        {
+            "name": "jdenderplays",
+            "email": "jdenderplays@gmail.com",
+            "url": "https://github.com/jdenderplays"
+        }
+    ],
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Chronomly/request-frame/issues"
+    },
+    "homepage": "https://github.com/Chronomly/request-frame#readme",
+    "dependencies": {
+        "discord.js": "^11.2.1"
+    },
+    "devDependencies": {}
 }
