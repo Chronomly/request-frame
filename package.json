@@ -4,7 +4,7 @@
     "description": "A discord.js bot command/bot framework based on RequestBound",
     "main": "main.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node test/maintest.js"
     },
     "repository": {
         "type": "git",
