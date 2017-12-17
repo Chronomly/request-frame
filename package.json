@@ -1,26 +1,23 @@
 {
-    "name": "request-frame",
-    "version": "1.0.0",
-    "main": "main.js",
-    "dependencies": {
-      "discord.js": "^11.2.1"
-    },
-    "devDependencies": {},
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "AGPL-3.0",
-    "keywords": [],
-    "description": "",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Chronomly/request-frame.git"
-    },
-    "license": "AGPL-3.0",
-    "bugs": {
-        "url": "https://github.com/Chronomly/request-frame/issues"
-    },
-    "homepage": "https://github.com/Chronomly/request-frame#readme",
-  }
-  
+  "name": "request-frame",
+  "version": "1.0.0",
+  "description": "A discord.js bot command/bot framework based on RequestBound",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chronomly/request-frame.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Chronomly/request-frame/issues"
+  },
+  "homepage": "https://github.com/Chronomly/request-frame#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  },
+  "devDependencies": {}
+}
